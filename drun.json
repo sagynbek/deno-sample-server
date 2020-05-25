@@ -1,0 +1,11 @@
+{
+  "entryPoint": "./server.ts",
+  "cwd": "./",
+  "excludes": [
+    "./file/you/want/to/exclude.ts"
+  ],
+  "runtimeOptions": [
+    "--allow-net",
+    "--allow-read"
+  ]
+}
